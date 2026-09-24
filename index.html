@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page elegante para serviço de tarot, com leituras acolhedoras focadas em reflexão e autoconhecimento." />
+  <title>Oráculo Lunar | Leituras de Tarot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" data-config="brandName">Oráculo Lunar</a>
+      <div class="nav-links">
+        <a href="#leituras">Leituras</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Atendimento confidencial e acolhedor</span>
+        <h1 data-config="heroTitle">Clareza para atravessar escolhas com mais presença.</h1>
+        <p data-config="heroDescription">
+          Leituras de tarot conduzidas com cuidado, escuta e profundidade para apoiar sua reflexão, seu autoconhecimento e seus próximos passos.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#" data-whatsapp>Quero minha leitura</a>
+          <a class="button secondary" href="#leituras">Ver opções e valores</a>
+        </div>
+        <div class="trust-points" aria-label="Diferenciais do atendimento">
+          <span>Confidencial</span>
+          <span>Sem julgamentos</span>
+          <span>Direcionamento prático</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Imagem da carta de tarot A Sacerdotisa com detalhes místicos">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <figure class="tarot-card real-card">
+          <span class="card-sparkle sparkle-one" aria-hidden="true">✦</span>
+          <span class="card-sparkle sparkle-two" aria-hidden="true">✧</span>
+          <img src="sacerdotisa.jpg" alt="Carta de tarot A Sacerdotisa" />
+          <figcaption>A Sacerdotisa</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section readings" id="leituras">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Leituras</span>
+        <h2>Escolha a leitura certa para a pergunta que está te acompanhando.</h2>
+        <p>Você recebe uma leitura personalizada, com linguagem clara, escuta sensível e foco em clareza prática — sem julgamentos e sem promessas vazias.</p>
+      </div>
+
+      <div class="reading-grid" id="readingGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="about-card reveal">
+        <span class="eyebrow">Sobre a proposta</span>
+        <h2 data-config="aboutTitle">Tarot como espelho, não como sentença.</h2>
+        <p data-config="aboutText">
+          O tarot é usado aqui como uma ferramenta simbólica de reflexão: ele ajuda a organizar percepções, nomear sentimentos e iluminar caminhos possíveis. A leitura não promete certezas absolutas sobre o futuro; ela oferece um espaço seguro para escuta, presença e autoconhecimento.
+        </p>
+      </div>
+    </section>
+
+    <section class="section testimonial" aria-label="Depoimento de cliente">
+      <div class="testimonial-card reveal">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <blockquote data-config="testimonialText">
+          A leitura foi profunda e delicada. Saí com mais clareza sobre o que eu estava sentindo e com perguntas importantes para continuar refletindo.
+        </blockquote>
+        <cite data-config="testimonialAuthor">— Marina S.</cite>
+      </div>
+    </section>
+
+    <section class="section final-cta" id="contato">
+      <div class="cta-card reveal">
+        <span class="eyebrow">Agendamento pelo WhatsApp</span>
+        <h2 data-config="ctaTitle">Vamos abrir um espaço para sua pergunta?</h2>
+        <p data-config="ctaText">Envie uma mensagem pelo WhatsApp para escolher o melhor horário e o tipo de leitura ideal para você.</p>
+        <a class="button primary" href="#" data-whatsapp>Reservar meu horário</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span data-config="brandName">Oráculo Lunar</span> © <span id="currentYear"></span> · Leituras de tarot para reflexão e autoconhecimento.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
